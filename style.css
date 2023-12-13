@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.title{
+    text-align: center;
+    font-size: 25px;
+    color: darkblue;
+    margin-top: 25px;
+}
+#to_do_list{
+    text-align: center;
+    margin-top: 25px;
+}
+#add_btn{
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+    border: 1px solid darkblue ;
+    background-color: transparent;
+    cursor: pointer;
+    color:darkblue;
+    transition: 0.5s;
+    font-size: 20px;
+    font-weight: bold;
+}
+#add_btn:hover{
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+    border: 1px solid darkblue ;
+    background-color: rgb(166, 166, 240);
+    color:darkblue;
+    cursor: pointer;
+    box-shadow: inset;
+    font-size: 20px;
+    font-weight: bold;
+}
+#delete_btn{
+    padding: 5px;
+    border-radius: 5px;
+    width: 150px;
+    margin-left: 10px;
+    border: 1px solid darkblue ;
+    background-color: transparent;
+    cursor: pointer;
+    color:darkblue;
+    transition: 0.5s;
+    font-size: 20px;
+    font-weight: bold;
+}
+#delete_btn:hover{
+    padding: 5px;
+    border-radius: 5px;
+    width: 150px;
+    border: 1px solid darkblue;
+    background-color: rgb(166, 166, 240);
+    color:darkblue;
+    cursor: pointer;
+    box-shadow: inset;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#refresh_btn{
+    padding: 5px;
+    border-radius: 5px;
+    width: 150px;
+    margin-left: 10px;
+    border: 1px solid darkblue ;
+    background-color: transparent;
+    cursor: pointer;
+    color:darkblue;
+    transition: 0.5s;
+    font-size: 20px;
+    font-weight: bold;
+}
+#refresh_btn:hover{
+    padding: 5px;
+    border-radius: 5px;
+    width: 150px;
+    border: 1px solid darkblue;
+    background-color: rgb(166, 166, 240);
+    color:darkblue;
+    cursor: pointer;
+    box-shadow: inset;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+/* .list_box{
+    margin-left: 500px;
+    margin-top: 25px;
+    border: 3px solid darkblue;
+    border-radius: 5px;
+    background-color: transparent;
+    width:75vh;
+    height: 50vh;
+} */
+.list_box p {
+    text-align: center;
+    color: darkblue;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: italic;
+    margin-top: 30px;
+}
+#lists{
+    color: darkblue;
+    font-size: 25px;
+    font-family:monospace;
+    font-weight:400;
+    margin-top: 10px;
+}

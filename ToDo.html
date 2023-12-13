@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta tags for name, content and character used -->
+        <meta charset="UTF-8">
+        <meta name="viewport", content="width=device-width initial-scale=1.0">
+        <!-- Link to stylesheet -->
+        <link rel="stylesheet" href="style.css">
+        <title>JS_ToDo_List_App</title>
+    </head>
+    <body>
+        <div class="container">
+            <!-- Title of the site -->
+            <div class="title">
+                <h1>To Do List APP Using Javascript</h1>
+            </div>
+
+            <div id="to_do_list">
+                <!-- Button to add the item in todo list -->
+                <button id="add_btn" onclick=" Add_item()">Add list</button>
+
+                <!-- Button to delete the item from a list -->
+                <button id="delete_btn" onclick="delete_node()">Delete list</button>
+
+                <!-- Button to refresh the website after deleting the item from list -->
+                <button id="refresh_btn" onclick="delete_item_from_screen()">Refresh</button>
+                
+                <!-- List box in which the to-do list will be displayed -->
+                <div class="list_box">
+                    <p>Your ToDo list</p>
+                    <ul><li id="lists"></li></ul>
+                </div>
+            </div>
+        </div>
+        <script src="ToDo.js"></script>
+    </body>
+</html>
